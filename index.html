@@ -1,0 +1,111 @@
+<html>
+<head>
+	<link rel='stylesheet' type="text/css" href='style.css'>
+	<title>Choose Your Adventure</title>
+</head>
+
+<body>
+     <div class= "page">     
+    
+    </div>
+
+   <div class = "Dialog"> 
+
+        <div id = "Intro" style="display:block;"> <h3> "You're walking through the forest, minding your own business, and you run into a troll! <br> <br> Do you FIGHT him, PAY him, or RUN?" 
+        </h3>
+        </div>
+    
+        <div id="Fighttxt" style="display:none;" class="answer_list" > <h3> How courageous! <br> Are you strong? 
+        </h3>
+        </div>
+
+        <div id="Fight-Yestxt"  style="display:none;" class="answer_list" > <h3>"You only need one of the two! <br> You beat the troll--nice work!"
+        </h3>
+
+        </div>
+
+        <div id="Fight-Notxt"  style="display:none;" class="answer_list" > <h3>You're not strong OR smart? Well, if you were smarter, you probably wouldn't have tried to fight a troll. <br> You lose!" 
+         </h3>
+        </div>
+
+        <div id="Paytxt" style="display:none;" class="answer_list" > <h3>All right, we'll pay the troll. <br> Do you have any money (YES or NO)? 
+        </h3>
+
+        </div>
+
+        <div id="Pay-Yestxt"  style="display:none;" class="answer_list" > <h3>Great! You pay the troll and continue on your merry way.
+        </h3>
+        </div>
+
+        <div id="Pay-Notxt"  style="display:none;" class="answer_list" > <h3>Dang! This troll only takes Troll Dollars. <br> You get whomped! 
+        </h3> 
+        </div>
+
+        <div id="Runtxt" style="display:none;" class="answer_list" ><h3> Let's book it! Are you fast <br> (YES or NO)? 
+        </h3>
+        </div>
+
+        <div id="Run-Yestxt"  style="display:none;" class="answer_list" ><h3> You got away--barely! You live to stroll through the forest another day. 
+        </h3>
+        </div>
+
+        <div id="Run-Notxt"  style="display:none;" class="answer_list" > <h3>You're not fast and you didn't get a head start? You never had a chance! <br> The troll eats you.  
+        </h3>
+        </div>
+    </div>
+    
+    <div class = "TrollPics">
+        <div id = "Introtrollimg">
+            <img id= "Introtrollimg1" style="display:block;" src="http://previews.123rf.com/images/albertzig/albertzig1210/albertzig121001257/15743630-3d-cartoon-cute-furry-gremlin-monster-Stock-Photo-troll-monster.jpg">
+        </div>
+
+        <div id = "Fighttrollimg">
+            <img id= "Fighttrollimg1" style="display:none;" src="http://www.palive365.com/wp-content/uploads/2011/10/fight2.gif">
+        </div>
+
+        <div id = "Paytrollimg">
+            <img id= "Paytrollimg1" style="display:none;" src="https://www.issueone.org/wp-content/uploads/2015/08/pay-to-play-money-changes-hands.jpg">
+        </div>
+
+        <div id = "runtrollimg">
+            <img id= "runtrollimg1" style="display:none;" src="http://www.amivintageyet.com/wp-content/uploads/2015/03/RunLab-Logo-Dr-Kim-Mullen.png">
+        </div>
+
+          <div id = "failtrollimg">
+            <img id= "failtrollimg1" style="display:none;" src="http://www.dumblittleman.com/wp-content/uploads/2014/05/Losers.jpg">
+        </div>
+
+          <div id = "wintrollimg">
+            <img id= "wintrollimg1" style="display:none;" src="http://www.inarascott.com/wp-content/uploads/2013/11/w.png">
+        </div>
+    </div>
+
+    <div class ="mainbtns">   
+        <input type="button" id= "fightbtn1" style="display:block;" name="Answer" value="Fight" onclick="showDiv1()" />
+        <input type="button" id= "paybtn1" style="display:block;" name="Answer" value="Pay" onclick="showDiv2()" />  
+        <input type="button" id= "runbtn1" style="display:block;" name="Answer" value="Run" onclick="showDiv3()" />
+    </div>
+<div class = "yesnobtns">
+    <div class= "FightYesNoBtns">
+        <input type="button" style="display:none;" name="Fightpart2" value="Yes" onclick="showDiv4()" />
+        <input type="button" style="display:none;" name="Fightpart2" value="No" onclick="showDiv5()" />
+    </div>
+
+
+    <div class= "PayYesNoBtns">
+        <input type="button" style="display:none;" name="Paypart2" value="Yes" onclick="showDiv6()" />
+        <input type="button" style="display:none;" name="Paypart2" value="No" onclick="showDiv7()" />
+    </div>
+
+
+    <div class= "RunYesNoBtns">
+        <input type="button" style="display:none;" name="Runpart2" value="Yes" onclick="showDiv8()" />
+        <input type="button" style="display:none;" name="Runpart2" value="No" onclick="showDiv9()" />
+    </div>
+ </div>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src='script.js' type="text/javascript"></script>
+
+</body>
+
+</html>

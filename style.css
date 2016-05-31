@@ -1,0 +1,91 @@
+.page{
+background-image: url(http://adoptingdivinemoments.com/wp-content/uploads/2014/07/CYOA-logo.jpg);
+width: 50%;
+height:25%;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-position:center;
+margin-left: auto;
+margin-right: auto;
+}
+
+.dialog {
+width: 60%;
+height:100px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+
+}
+
+.Dialog h3{
+margin-left: auto;
+margin-right: auto;
+vertical-align: middle;
+text-align: center;
+font-size:smaller;
+padding: 5px;
+font-family: "Times New Roman", Times, serif;
+}
+
+
+.TrollPics{
+width:100%;
+height:33%;
+}
+
+.TrollPics img{
+width: 25%;
+height:100%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.mainbtns{
+    width: 100%;
+    height: 5%;
+}
+
+
+.mainbtns {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+
+.yesnobtns {
+    width: 100%;
+    height: 5%;
+}
+
+
+.FightYesNoBtns {
+    width: 100%;
+    height: 100%;
+}
+
+.FightYesNoBtns {
+  display: flex;
+  justify-content: center;
+}
+
+.RunYesNoBtns {
+    width: 100%;
+    height: 100%;
+}
+
+.RunYesNoBtns {
+  display: flex;
+  justify-content: center;
+}
+
+.PayYesNoBtns {
+    width: 100%;
+    height: 100%;
+}
+
+.PayYesNoBtns {
+  display: flex;
+  justify-content: center;
+}
